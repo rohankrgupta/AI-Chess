@@ -15,40 +15,6 @@ Currently trying to implement multiprocessing as our recursive function uses a l
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisities
-
-1. [Python 2](https://www.python.org/downloads/)
-2. [Virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
-3. [PyPy](http://pypy.org/download.html) (Python2.7 compatible)
-
-### Installing
-
-After installing the prerequisites and cloning this repo, go into the repo and create a virtual env:
-
-```
-virtualenv env
-```
-
-Activate the env:
-
-```
-source env/bin/activate
-```
-
-Install the dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-Run the game with:
-
-```
-python chess_ai.py
-```
-
-It is HIGHLY recommended that you run ```chess_ai.py``` with PyPy to greatly reduce computation time.
-
 ## Minimax Algorithm
 
 Borrowing from Wikipedia's concise definition, the [minimax algorithm](https://en.wikipedia.org/wiki/Minimax) is "a decision rule used ... for minimizing the possible loss for a worst case (maximum loss) scenario." With respect to chess, the player to act is the maximizer, whose move would be met with an adversarial response from the opponent (minimizer). The minimax algorithm assumes that the opponent is competent and would respond by minimizing the value (determined by some heuristic) of the maximizer.
@@ -92,15 +58,6 @@ The heuristics we used don't come close to representing all the depth involved i
 
 For more ideas about chess heuristics, check out this [article](https://www.quora.com/What-are-some-heuristics-for-quickly-evaluating-chess-positions).
 
-## Authors
-
-* **Ian Jabour** - [l4nk332](https://github.com/l4nk332)
-* **James Lim** - [lamesjim](https://github.com/lamesjim)
-* **Dai Nguyen** - [dnguyen87](https://github.com/dnguyen87)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
