@@ -11,9 +11,6 @@ Currently trying to implement multiprocessing as our recursive function uses a l
 
 ![Chess AI Terminal Screenshot](https://github.com/jameslim1021/Chess-AI/blob/master/screenshots/chessai.png)
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ## Minimax Algorithm
 
