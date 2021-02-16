@@ -28,8 +28,6 @@ Because of the number of board states possible in chess (estimated to be [10^120
 
 The grayed-out leaf node with a heuristic of 5 is never explored because the maximizer, at that point, is guaranteed a 5 by going left and can do no better than 4 by going right. That is, if the value of the grayed-out leaf node is greater than 4, the minimizer would choose the 4. If it were less than 4, the minimizer would choose it instead. From the maximizer's perspective, there is no reason to investigate that leaf node.
 
-For more information on the history of chess, minimax, and alpha-beta pruning, check out Patrick Winston's [lecture](https://www.youtube.com/watch?v=STjW3eH0Cik).
-
 ## Heuristics
 
 There are many factors when calculating the heuristics of a chessboard. As we developed our heuristic formula to consider more factors, the computations required to calculate the best move increased exponentially. At the moment, the AI considers the following 4 aspects of a board in its heuristic function.
