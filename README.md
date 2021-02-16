@@ -50,11 +50,6 @@ The pawn structure heuristic gives a score based on the number of pawns supporte
 ### Check Status
 This heuristic checks if a player is in check or checkmate status. It encourages the AI to make moves that would put the opponent in check while avoiding moves that would put itself in check. It also detects if a move would put opponent in checkmate, which would be prioritized over all other heuristics.
 
-### Other Heuristics
-The heuristics we used don't come close to representing all the depth involved in chess. Creating a heuristic that would encourage the AI to employ more complex strategies and tactics is not only conceptually difficult. It is also computationally demanding. As we optimize our engine, we would like to tweak our heuristics to better match the complexities of chess.
-
-For more ideas about chess heuristics, check out this [article](https://www.quora.com/What-are-some-heuristics-for-quickly-evaluating-chess-positions).
-
 
 ## Acknowledgments
 
