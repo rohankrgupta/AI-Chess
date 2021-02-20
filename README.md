@@ -7,7 +7,7 @@ This project focuses on computer science concepts such as data structures and al
 * check/checkmate status
 * pawn structure
 
-Currently trying to implement multiprocessing as our recursive function uses a lot of computing power so calculating heuristics on board states more than 4 levels deep takes a lot of time. With a depth of 3 leves, our AI makes pretty good moves but also makes a lot of ill-advised ones as well. The AI's chess intelligence is estimated to be at a level 3 out of 9.
+Currently trying to implement multiprocessing as the recursive function uses a lot of computing power so calculating heuristics on board states more than 4 levels deep takes a lot of time. With a depth of 3 leves, our AI makes pretty good moves but also makes a lot of ill-advised ones as well. The AI's chess intelligence is estimated to be at a level 3 out of 9.
 
 ![Chess AI Terminal Screenshot](https://github.com/rohankrgupta/AI-Chess/blob/main/Screenshot%20from%202021-02-20%2014-47-46.png)
 
@@ -22,6 +22,6 @@ Because of the number of board states possible in chess (estimated to be [10^120
 
 
 ## Acknowledgments
-
+These are the resources I have referred while making this project :
 * cgearheart's [Chessnut](https://github.com/cgearhart/Chessnut)
 * Aleks Kamko's [Alpha-Beta Pruning Practice](http://inst.eecs.berkeley.edu/~cs61b/fa14/ta-materials/apps/ab_tree_practice/)
