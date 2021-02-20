@@ -9,7 +9,7 @@ This project focuses on computer science concepts such as data structures and al
 
 Currently trying to implement multiprocessing as our recursive function uses a lot of computing power so calculating heuristics on board states more than 4 levels deep takes a lot of time. With a depth of 3 leves, our AI makes pretty good moves but also makes a lot of ill-advised ones as well. The AI's chess intelligence is estimated to be at a level 3 out of 9.
 
-![Chess AI Terminal Screenshot](https://github.com/jameslim1021/Chess-AI/blob/master/screenshots/chessai.png)
+![Chess AI Terminal Screenshot](https://github.com/rohankrgupta/AI-Chess/blob/main/Screenshot%20from%202021-02-20%2014-47-46.png)
 
 
 ## Minimax Algorithm
